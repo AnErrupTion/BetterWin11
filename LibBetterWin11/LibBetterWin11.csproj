@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputPath>../bin</OutputPath>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="DiscUtils.Udf" Version="0.16.13" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ContentWithTargetPath Include="Apps\autounattend.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        <TargetPath>autounattend.xml</TargetPath>
+      </ContentWithTargetPath>
+      <ContentWithTargetPath Include="Apps\Firefox.msix">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        <TargetPath>Firefox.msix</TargetPath>
+      </ContentWithTargetPath>
+      <ContentWithTargetPath Include="Apps\OneDrive.appxbundle">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        <TargetPath>OneDrive.appxbundle</TargetPath>
+      </ContentWithTargetPath>
+      <ContentWithTargetPath Include="Apps\oscdimg.exe">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        <TargetPath>oscdimg.exe</TargetPath>
+      </ContentWithTargetPath>
+    </ItemGroup>
+
+</Project>

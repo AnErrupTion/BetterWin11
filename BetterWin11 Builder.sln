@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterWin11 Builder", "BetterWin11 Builder\BetterWin11 Builder.csproj", "{4D93B6CA-B2E1-42A6-9786-4F9060A5E6D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistryHiveRebuilder", "RegistryHiveRebuilder\RegistryHiveRebuilder.csproj", "{F5FDD94B-460E-48D7-8951-A0A1FA7B9C86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSudoLauncher", "NSudoLauncher\NSudoLauncher.csproj", "{3725B2FE-FB80-4291-A86F-A0EEFA339B06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibBetterWin11", "LibBetterWin11\LibBetterWin11.csproj", "{49DB47F2-8C1A-4E18-B8DC-0E2BB2170474}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D93B6CA-B2E1-42A6-9786-4F9060A5E6D7}.Release|x64.ActiveCfg = Release|x64
+		{4D93B6CA-B2E1-42A6-9786-4F9060A5E6D7}.Release|x64.Build.0 = Release|x64
+		{F5FDD94B-460E-48D7-8951-A0A1FA7B9C86}.Release|x64.ActiveCfg = Release|Any CPU
+		{F5FDD94B-460E-48D7-8951-A0A1FA7B9C86}.Release|x64.Build.0 = Release|Any CPU
+		{3725B2FE-FB80-4291-A86F-A0EEFA339B06}.Release|x64.ActiveCfg = Release|Any CPU
+		{3725B2FE-FB80-4291-A86F-A0EEFA339B06}.Release|x64.Build.0 = Release|Any CPU
+		{49DB47F2-8C1A-4E18-B8DC-0E2BB2170474}.Release|x64.ActiveCfg = Release|Any CPU
+		{49DB47F2-8C1A-4E18-B8DC-0E2BB2170474}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
